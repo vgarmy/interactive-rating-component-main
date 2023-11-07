@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 95vh;
+    font-size: var(--p-font-size);
+    line-height: 1.4;
+  }
+
+.thankyou_container{
+    width: 415px;   
+    background: linear-gradient(217deg, var(--medium-dark), var(--dark-blue));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 2rem;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.thankyou_container h2{
+    color: var(--white-color);
+}
+
+.thankyou_container p{
+    color: var(--light-grey);
+}
+
+.thankyou_container_grading{
+    background: var(--dark-blue);
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    color: var(--orange-color) !important;
+    font-size: 0.8rem;
+}
+
+

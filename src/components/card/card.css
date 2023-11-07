@@ -10,7 +10,7 @@
 
 .card__container{
     width: 415px;   
-    background: linear-gradient(to bottom, var(--dark-blue), var(--dark-blue));
+    background: linear-gradient(217deg, var(--medium-dark), var(--dark-blue));
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -21,8 +21,16 @@
     gap: 1.5rem;
 }
 
+.card__container h1{
+    color: var(--white-color);
+}
+
+.card__container p{
+    color: var(--light-grey);
+}
+
 .card__container img{
-    background: var(--medium-grey);
+    background: var(--medium-dark);
     padding: 1rem;
     border-radius: 50px;
 }
@@ -37,7 +45,7 @@
 }
 
 .card__container_ratings_number {
-    background: var(--medium-grey);
+    background: var(--medium-dark);
     width: 3rem;
     height: 3rem;
     border-radius: 50px;
@@ -73,4 +81,8 @@ button:hover{
     background: var(--white-color);
     color: var(--orange-color);
     cursor: pointer; 
+}
+
+.card__container a{
+    width: 100%;
 }

@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from "react-router-dom";
 import './card.css';
 import StarSvg from '../../images/icon-star.svg';
+import {Link} from "react-router-dom";
 
-const Card = (props) => {
+const Card = () => {
     return (
         <div className='container' role="main">
             <div className='card__container'>
@@ -13,30 +13,30 @@ const Card = (props) => {
                     to help us improve our offering!</p>
                 <div className='card__container_ratings'>
                     <div className='card__container_ratings_number'
-                    onClick={() => props.setRating(1)}>
+                    >
                         <p>1</p>
                     </div>
                     <div className='card__container_ratings_number '
-                    onClick={() => props.setRating(2)}>
+                    >
                         <p>2</p>
                     </div>
                     <div className='card__container_ratings_number '
-                    onClick={() => props.setRating(3)}>
+                   >
                         <p>3</p>
                     </div>
                     <div className='card__container_ratings_number '
-                    onClick={() => props.setRating(4)}
+                    
                     >
                         <p>4</p>
                     </div>
                     <div className='card__container_ratings_number '
-                    onClick={() => props.setRating(5)}>
+                    >
                         <p>5</p>
                     </div>
                 </div>
-                <Link to={props.rating === null ? "/" : "/ThankYou"}>
-                <button>
-                 Submit</button></Link>
+                
+                <Link to="/interactive-rating-component-main/thankyou"> <button>Submit</button>
+                 </Link>
             </div>
         </div>
     )
