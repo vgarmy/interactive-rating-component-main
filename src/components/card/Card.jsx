@@ -31,8 +31,11 @@ const Card = () => {
                         </div>
                     ))}
                 </div>
-
-                <Link to={`/interactive-rating-component-main/thankyou/${activeCard}`}>Submit</Link>
+                {activeCard !== null && activeCard !== undefined ? (
+                    <Link to={`/interactive-rating-component-main/thankyou/${activeCard}`}>Submit</Link>
+                ) : (
+                    <Link>Submit</Link>
+                )}
             </div>
 
         </div>
