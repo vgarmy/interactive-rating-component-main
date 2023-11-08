@@ -1,20 +1,14 @@
 
 import './App.css';
-import Card from './components/card/Card'
-import ThankYou from './components/thankyou/ThankYou'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
+import AnimatiedRoutes from './components/AnimatiedRoutes'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
-
-
+  
   return (
     <div className='App'>
       <Router>
-        <Routes>
-          <Route path="interactive-rating-component-main/" element={<Card />}/>
-          <Route exact path='interactive-rating-component-main/thankyou/:activeCard' element={<ThankYou />} />
-        </Routes>
+        <AnimatiedRoutes />
       </Router>
     </div>
   );

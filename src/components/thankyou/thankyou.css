@@ -28,6 +28,7 @@
 
 .thankyou_container p{
     color: var(--light-grey);
+    font-size: 0.9rem;
 }
 
 .thankyou_container_grading{
@@ -38,4 +39,11 @@
     font-size: 0.8rem;
 }
 
-
+@media screen and (max-width: 500px) {
+    .container{
+        padding: 0 1.5rem;
+    }
+    .thankyou_container{
+        width: 100%;
+      }
+  }
