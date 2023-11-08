@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/interactive-rating-component-main/static/css/main.45a08ba8.css",
-    "main.js": "/interactive-rating-component-main/static/js/main.49d56354.js",
+    "main.css": "/interactive-rating-component-main/static/css/main.8c034cd3.css",
+    "main.js": "/interactive-rating-component-main/static/js/main.60240d1b.js",
     "static/media/illustration-thank-you.svg": "/interactive-rating-component-main/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
     "index.html": "/interactive-rating-component-main/index.html",
     "static/media/icon-star.svg": "/interactive-rating-component-main/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
-    "main.45a08ba8.css.map": "/interactive-rating-component-main/static/css/main.45a08ba8.css.map",
-    "main.49d56354.js.map": "/interactive-rating-component-main/static/js/main.49d56354.js.map"
+    "main.8c034cd3.css.map": "/interactive-rating-component-main/static/css/main.8c034cd3.css.map",
+    "main.60240d1b.js.map": "/interactive-rating-component-main/static/js/main.60240d1b.js.map"
   },
   "entrypoints": [
-    "static/css/main.45a08ba8.css",
-    "static/js/main.49d56354.js"
+    "static/css/main.8c034cd3.css",
+    "static/js/main.60240d1b.js"
   ]
 }
