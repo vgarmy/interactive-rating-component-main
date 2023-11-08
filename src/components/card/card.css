@@ -83,7 +83,7 @@
     cursor: pointer;
 }
 
-button{
+.card__container a{
     width: 100%;
     padding: 1rem 0;
     background: var(--orange-color);
@@ -93,16 +93,14 @@ button{
     border: none;
     border-radius: 2.5rem;
     letter-spacing: 0.2rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
 }
 
-button:hover{
+.card__container a:hover{
     background: var(--white-color);
     color: var(--orange-color);
-    cursor: pointer; 
-}
-
-.card__container a{
-    width: 100%;
 }
 
 @media screen and (max-width: 500px) {

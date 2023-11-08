@@ -32,7 +32,7 @@ const Card = () => {
                     ))}
                 </div>
 
-                <Link to={`/interactive-rating-component-main/thankyou/${activeCard}`}><button>Submit</button></Link>
+                <Link to={`/interactive-rating-component-main/thankyou/${activeCard}`}>Submit</Link>
             </div>
 
         </div>
