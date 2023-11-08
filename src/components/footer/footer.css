@@ -1,0 +1,10 @@
+footer {
+    font-size: 11px;
+    padding: 0 20px;
+    text-align: center;
+    color: var(--light-grey);
+}
+
+footer a {
+    color: var(--orange-color);
+}
