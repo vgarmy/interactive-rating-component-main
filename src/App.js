@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="interactive-rating-component-main/" element={<Card />}/>
-          <Route path='interactive-rating-component-main/thankyou' element={<ThankYou />} />
+          <Route exact path='interactive-rating-component-main/thankyou/:activeCard' element={<ThankYou />} />
         </Routes>
       </Router>
     </div>
