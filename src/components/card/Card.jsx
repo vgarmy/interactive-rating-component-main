@@ -3,7 +3,7 @@ import './card.css';
 import StarSvg from '../../images/icon-star.svg';
 import { Link } from "react-router-dom";
 
-const Card = (props) => {
+const Card = () => {
 
     const [activeCard, setActiveCard] = useState(null);
 
